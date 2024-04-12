@@ -50,7 +50,6 @@ export default function Component() {
             </CardHeader>
             <CardContent className="grid gap-2">
                 <Input className="w-full" value={data.link} onChange={(e) => setData({ ...data, link: e.target.value })} placeholder="Enter your link" />
-                <Input className="w-full" value={data.shortLink} onChange={(e) => setData({ ...data, shortLink: e.target.value })} placeholder="Enter custom text(Optional)" />
                 <Button className="w-full" disabled={loading} type="submit">Generate</Button>
                 <div className="flex items-center justify-center space-x-2">
                     <Input className="w-full" readOnly value={shortLink} />
