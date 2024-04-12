@@ -3,8 +3,8 @@ import { redirect } from "next/navigation";
 import useGetServerSession from "@/app/hooks/useGetServerSession";
 
 export const metadata: Metadata = {
-  title: "Jindal",
-  description: "Jindal Page",
+  title: "Dashboard",
+  description: "Dashboard for Shortify -- Your URL Shortener",
 };
 
 export default async function JindalLayout({
