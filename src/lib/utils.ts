@@ -16,4 +16,4 @@ export function generateRandomCharacters(length: number): string {
 }
 
 
-export const domain = "http://localhost:3000"
+export const domain = "https://shortify.projectblaze.in"
